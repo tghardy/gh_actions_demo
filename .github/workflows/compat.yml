@@ -2,7 +2,7 @@ name: Compatibility report
 on:
   workflow_dispatch:
   push:
-    branches: [ master ]
+    branches: [ main ]
     paths:
       - ".github/workflows/compat.yml"
 jobs:
